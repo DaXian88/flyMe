@@ -1,11 +1,15 @@
-import '../styles/App.css';
+// App.js
+import React from "react";
+import SearchFlight from "./SearchFlight";
 
-function App() {
+// import SearchRoot from "./pages/search-root";
+// import "./styles/main.scss";
+// Root component
+const App = () => {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <SearchFlight />
+    </>
   );
-}
-
+};
 export default App;
